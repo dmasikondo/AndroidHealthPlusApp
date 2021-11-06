@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         // Declaring the textView from the layout file
         // This textView will display the type of connection
         // Either WIFI, MOBILE DATA, or Not Connected
-        val networkConnectionStatus = findViewById<TextView>(R.id.tvNetwork)
+    /*    val networkConnectionStatus = findViewById<TextView>(R.id.tvNetwork)
 
         // A Thread that will continuously monitor the Connection Type
         Thread(Runnable {
@@ -50,7 +50,7 @@ class MainActivity : AppCompatActivity() {
                     networkConnectionStatus.text = conStant
                 }
             }
-        }).start() // Starting the thread
+        }).start() // Starting the thread*/
 
        // Toast.makeText(this, "Welcome", Toast.LENGTH_LONG )
     }

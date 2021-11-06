@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/projects/AndroidStudioProjects/HealthPlusApp/app/src/main/res/drawable/ic_hospital.xml" value="0.21770833333333334" />
         <entry key="..\:/projects/AndroidStudioProjects/HealthPlusApp/app/src/main/res/layout/activity_main.xml" value="0.17147922998986828" />
         <entry key="..\:/projects/AndroidStudioProjects/HealthPlusApp/app/src/main/res/layout/activity_splash_screen.xml" value="0.17831813576494426" />
       </map>
