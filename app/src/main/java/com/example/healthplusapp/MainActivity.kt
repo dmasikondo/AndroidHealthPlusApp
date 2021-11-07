@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
 import android.widget.Toast
+import androidx.cardview.widget.CardView
 import android.net.NetworkInfo as NetworkInfo1
 
 class MainActivity : AppCompatActivity() {
@@ -16,6 +17,32 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        val cvPrevention = findViewById<CardView>(R.id.cvPrevention)
+        val cvTreatment = findViewById<CardView>(R.id.cvTreatment)
+        val cvPmtct = findViewById<CardView>(R.id.cvPmtct)
+        val cvVideo = findViewById<CardView>(R.id.cvVideo)
+        val cvFactsheet = findViewById<CardView>(R.id.cvFactsheet)
+        val cvQuiz = findViewById<CardView>(R.id.cvQuiz)
+        cvPrevention.setOnClickListener{
+            Toast.makeText(this, "Prevention",Toast.LENGTH_SHORT).show()
+        }
+        cvVideo.setOnClickListener{
+            Toast.makeText(this, "Video",Toast.LENGTH_SHORT).show()
+        }
+        cvTreatment.setOnClickListener{
+            Toast.makeText(this, "Treatment",Toast.LENGTH_SHORT).show()
+        }
+        cvPmtct.setOnClickListener{
+            Toast.makeText(this, "Pmtct",Toast.LENGTH_SHORT).show()
+        }
+        cvFactsheet.setOnClickListener{
+            Toast.makeText(this, "Factsheet",Toast.LENGTH_SHORT).show()
+        }
+        cvQuiz.setOnClickListener{
+            Toast.makeText(this, "Quiz",Toast.LENGTH_SHORT).show()
+        }
+
+
         // Declaring the textView from the layout file
         // This textView will display the type of connection
         // Either WIFI, MOBILE DATA, or Not Connected
