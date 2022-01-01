@@ -16,7 +16,7 @@
             android:text="DASHBOARD"
             android:textStyle="bold"
             android:textSize="30sp"
-            android:textColor="@color"
+            android:textColor="@color/white"
             android:layout_margin="20dp"/>
 
     <GridLayout
